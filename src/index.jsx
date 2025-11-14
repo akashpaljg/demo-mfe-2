@@ -17,9 +17,9 @@ import './index.scss';
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider>
-      <Header />
+      {/* <Header /> */}
       <ExamplePage />
-      <FooterSlot />
+      {/* <FooterSlot /> */}
     </AppProvider>,
     document.getElementById('root'),
   );
